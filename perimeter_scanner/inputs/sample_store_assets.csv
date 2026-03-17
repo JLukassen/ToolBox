@@ -1,0 +1,3 @@
+store_id,store_name,city,state,asset_name,asset_type,wan_ip,hostname,firewall_vendor,expected_public_services,scan_profile,approval_status,scan_enabled,notes
+STORE01,Sample Store,Houston,TX,Main Firewall,Firewall,203.0.113.10,,Meraki,"443;500;4500",standard,approved,yes,Sample data
+STORE02,Sample Branch,Dallas,TX,Main Firewall,Firewall,203.0.113.11,,Meraki,"443;500;4500",standard,approved,no,Sample data

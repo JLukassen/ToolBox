@@ -1,0 +1,36 @@
+.venv/
+**/.venv/
+
+__pycache__/
+**/__pycache__/
+
+*.pyc
+*.pyo
+*.pyd
+
+.env
+*.env
+
+.vscode/
+.idea/
+
+outputs/
+**/outputs/*
+
+!**/outputs/.gitkeep
+!**/outputs/raw/.gitkeep
+!**/outputs/reports/.gitkeep
+
+*.xlsx
+*.xlsm
+*.log
+*.tmp
+
+# Real input/export files
+**/inputs/*.csv
+**/inputs/*.xlsx
+**/inputs/*.xls
+
+# Keep sample files if explicitly named sample_*
+!**/inputs/sample_*.csv
+!**/inputs/sample_*.xlsx
